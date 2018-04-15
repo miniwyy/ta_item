@@ -16,7 +16,7 @@ var Page = {
 		$.ajax({
 			type: "get", 
 			dataType: "json",
-			url: "http://192.168.1.150/h5/member/get_member_info?uid=9",
+			url: "xxx",
 			success: function (data){			   
 				callback(data);
 			},
@@ -29,7 +29,7 @@ var Page = {
 		$.ajax({
 			type: "get",
 			dataType: "json",
-			url: "http://192.168.1.150/h5/member/get_buy_list?uid=9&state=0",
+			url: "xxx",
 			success: function (data) {
 				callback(data);
 			},error: function(){
@@ -41,7 +41,7 @@ var Page = {
 		$.ajax({
 			type: "get",
 			dataType: "json",
-			url: "http://192.168.1.150/h5/member/get_lucky_list?uid=9",
+			url: "xxx",
 			success: function (data) {
 				callback(data);
 			},error: function(){
@@ -53,7 +53,7 @@ var Page = {
 		$.ajax({
 			type: "get",
 			dataType: "json",
-			url: "http://192.168.1.150/h5/member/get_post_list?uid=9",
+			url: "xxx",
 			success: function (data) {
 				callback(data);
 			},error: function(){
